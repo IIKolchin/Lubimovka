@@ -1,0 +1,17 @@
+.photo__swiper-slide {
+  font-size: 18px;
+  height: 250px !important;
+}
+
+@media (max-width: 1100px) {
+  .photo__swiper-slide {
+    width: 25vw !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .photo__swiper-slide {
+    width: 206px !important;
+    height: 141px !important;
+  }
+}
